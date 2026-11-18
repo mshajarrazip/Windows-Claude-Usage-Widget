@@ -1,0 +1,25 @@
+# Widget runtime files (normally in %LOCALAPPDATA%\ClaudeUsageWidget, ignored here in case of local runs)
+settings.json
+error.log
+*.log
+
+# Local test data and snapshots (-DemoFile / -Snapshot)
+sample*.json
+*.png
+
+# Never commit sign-in files
+.credentials.json
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
